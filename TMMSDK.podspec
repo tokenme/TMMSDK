@@ -129,8 +129,5 @@ Pod::Spec.new do |s|
 
   s.xcconfig = { "OTHER_LDFLAGS" => "$(inherited) -ObjC" }
   s.requires_arc = true
-  # s.dependency "JSONModel", "~> 1.7"
-  # s.dependency "AFNetworking", "~> 3.2"
-  # s.dependency "UICKeyChainStore", "~> 2.1"
 
 end
