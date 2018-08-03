@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TMMSDK"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "TMM SDK for iOS"
 
   # This description is used to generate tags and improve search results.
@@ -127,7 +127,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.xcconfig = { "OTHER_LDFLAGS" => "$(inherited) -ObjC" }
+  s.xcconfig = { "OTHER_LDFLAGS" => "$(inherited) -ObjC" }
   s.requires_arc = true
 
 end
