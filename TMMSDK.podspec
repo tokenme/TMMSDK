@@ -127,7 +127,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  s.xcconfig = { "OTHER_LDFLAGS" => "$(inherited) -ObjC" }
+  # s.xcconfig = { "OTHER_LDFLAGS" => "$(inherited) -ObjC" }
   s.requires_arc = true
 
 end
