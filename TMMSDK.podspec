@@ -16,9 +16,8 @@ Pod::Spec.new do |s|
 
   s.homepage     = "http://www.tokenmama.io"
   s.license      = { :type => 'Copyright', :text => '© Tokenmama移动广告平台' }
-  s.author             = { "Syd" => "prof.syd.xu@gmail.com" }
+  s.author       = { "Syd" => "prof.syd.xu@gmail.com" }
   s.platform     = :ios, "8.0"
-  s.default_subspecs = 'ShareSDK'
   s.source       = { :git => "https://github.com/tokenmama/TMMSDK.git", :tag => "#{s.version}" }
   s.resource = "TMMSDK.framework/TMMSDKBundle.bundle"
   s.frameworks = "Foundation", "UIKit", "CoreTelephony", "Security", "AdSupport"
