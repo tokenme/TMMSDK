@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TMMSDK"
-  s.version      = "0.1.8"
+  s.version      = "0.1.9"
   s.summary      = "TMM SDK for iOS"
 
   # This description is used to generate tags and improve search results.
@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-  s.resource = "Resources/TMMSDKBundle.bundle"
+  s.resource = "TMMSDKBundle.bundle"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
