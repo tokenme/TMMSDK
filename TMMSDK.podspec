@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "TMMSDK"
-  s.version      = "0.3.0"
+  s.version      = "0.3.1"
   s.summary      = "TMM SDK for iOS"
   s.description  = <<-DESC
                     © Tokenmama移动广告平台
