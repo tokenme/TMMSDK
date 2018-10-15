@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "TMMSDK"
-  s.version      = "0.4.1"
+  s.version      = "0.4.2"
   s.summary      = "TMM SDK for iOS"
   s.description  = <<-DESC
                     © Tokenmama移动广告平台
@@ -22,6 +22,9 @@ Pod::Spec.new do |s|
   s.resource = "TMMSDK.framework/TMMSDKBundle.bundle"
   s.frameworks = "Foundation", "UIKit", "CoreTelephony", "Security", "AdSupport"
   s.vendored_frameworks = "TMMSDK.framework"
+  s.dependency = 'UICKeyChainStore', '~> 2.1'
+  s.dependency = 'AFNetworking', '~> 3.2'
+  s.dependency = 'JSONModel', '~> 1.8'
   s.xcconfig = { "OTHER_LDFLAGS" => "-ObjC" }
   s.requires_arc = true
 
