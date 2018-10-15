@@ -22,9 +22,9 @@ Pod::Spec.new do |s|
   s.resource = "TMMSDK.framework/TMMSDKBundle.bundle"
   s.frameworks = "Foundation", "UIKit", "CoreTelephony", "Security", "AdSupport"
   s.vendored_frameworks = "TMMSDK.framework"
-  s.dependency = 'UICKeyChainStore', '~> 2.1'
-  s.dependency = 'AFNetworking', '~> 3.2'
-  s.dependency = 'JSONModel', '~> 1.8'
+  s.dependency 'UICKeyChainStore', '~> 2.1'
+  s.dependency 'AFNetworking', '~> 3.2'
+  s.dependency 'JSONModel', '~> 1.8'
   s.xcconfig = { "OTHER_LDFLAGS" => "-ObjC" }
   s.requires_arc = true
 
